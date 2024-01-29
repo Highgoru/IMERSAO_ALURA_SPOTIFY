@@ -1,0 +1,46 @@
+/* Reset CSS */
+
+/* Remova a margem padrão e o preenchimento */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+/* Defina a fonte e o tamanho padrão */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Remova a decoração de link padrão */
+a {
+  text-decoration: none;
+}
+
+/* Defina a cor do texto padrão */
+body {
+  color: #333;
+}
+
+/* Defina a largura máxima para evitar que o conteúdo se estenda demais */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Adicione mais regras de reset CSS, se necessário */
